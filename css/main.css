@@ -1,3 +1,7 @@
 /*
 main.css
 */
+
+*{
+    box-sizing: border-box;
+}
