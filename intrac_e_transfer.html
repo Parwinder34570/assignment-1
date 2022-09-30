@@ -45,8 +45,35 @@
 
       <!--Main Content-->
       <div class="container">
-        <br>
-        <br>
+        <div class="payee-detail-form">
+            <form id="transaction-detail-form" onsubmit="formSubmit()">
+                <div class="form-group">
+                    <label for="name">Payee Name</label>
+                    <input type="text" class="form-control" id="name">
+              </div>
+              <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" class="form-control" id="email">
+              </div>
+              <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="phone" class="form-control" id="phone">
+              </div>
+              <div class="form-group">
+                    <label for="question">Enter interac question</label>
+                    <input type="text" class="form-control" id="question">
+              </div>
+              <div class="form-group">
+                    <label for="answer">Enter interac answer</label>
+                    <input type="text" class="form-control" id="answer">
+              </div>
+              <div class="form-group">
+                    <label for="amount">Amount</label>
+                    <input type="text" class="form-control" id="amount">
+              </div>
+                <input type="submit" value="Send Money" class="submit" id="submit">
+            </form>
+        </div>
       </div>
 
       <!--Footer Content-->

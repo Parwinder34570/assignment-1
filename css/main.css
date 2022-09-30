@@ -41,3 +41,15 @@ F9F5EB
 body{
     background-color: #F9F5EB;
 }
+.payee-detail-form{
+    padding-top: 40px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.submit{
+    margin-top: 30px;
+    padding: 10px 30px;
+    color: #fff;
+    background-color: blue;
+    border: 0;
+}
