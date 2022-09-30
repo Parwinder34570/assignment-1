@@ -40,7 +40,7 @@ function checkDetails(){
 function formSubmit(){
 	var amount = document.getElementById('amount').value;
 	if (amount < 5000){
-		alert(`Money Send!! You send CAD${amount}`);
+		alert(`Money Send!! You send CAD ${amount}`);
 	} else{
 		alert('Not enough Balance');
 	}
