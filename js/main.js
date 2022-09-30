@@ -32,7 +32,8 @@ function checkDetails(){
         window.location.href = "./accounts_summary.html";
     }
     else{
-        alert("Invalid Username or password !! Try again.")
+       // alert("Invalid Username or password !! Try again.")
+       document.getElementById("error").innerHTML = "Failed Attempt";
     }
 
 }
